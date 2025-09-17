@@ -3,37 +3,37 @@
 A desktop application built with **C# WinForms** and **SQL Server LocalDB** for managing restaurant operations.  
 The system provides tools for administrators and cashiers to handle daily workflows such as product management, stock tracking, customer handling, and order processing.
 
-## 🚀 Features
-- **User Authentication**  
+ Features
+User Authentication
   - Register new users  
   - Login with roles (Admin, Cashier)  
 
-- **Product Management**  
+  Product Management 
   - Add, edit, delete products  
   - Upload product images  
   - Set price, type, unit, and status  
 
-- **Stock Management**  
+  Stock Management 
   - Automatic stock updates when orders are placed  
   - Track sold quantities and remaining stock  
   - Status: Available, Low Stock, Out of Stock  
 
-- **Order Processing**  
+  Order Processing 
   - Add customer orders  
   - Calculate total price, payment, and change  
   - Print invoice/receipt  
 
-- **Dashboard & Statistics**  
+  Dashboard & Statistics
   - Sales overview  
   - Product performance  
   - Quick access for Admins  
 
-## 🛠️ Technologies Used
+Technologies Used
 - C# WinForms
 - .NET Framework
 - SQL Server LocalDB (`restaurant.mdf`)
 
-## 📂 Project Structure
+ Project Structure
 - `RegisterForm` – User registration  
 - `Form1` – Login form  
 - `Admin.cs` – Administrator panel  
